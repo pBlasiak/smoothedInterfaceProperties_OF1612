@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Foam	interfaceProperties.H	/^namespace Foam$/;"	n	language:C++
+Foam::interfaceProperties	interfaceProperties.H	/^class interfaceProperties$/;"	c	language:C++	namespace:Foam
+Foam::interfaceProperties::K	interfaceProperties.H	/^        const volScalarField& K() const$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::K_	interfaceProperties.H	/^        volScalarField K_;$/;"	m	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::U_	interfaceProperties.H	/^        const volVectorField& U_;$/;"	m	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::alpha1_	interfaceProperties.H	/^        const volScalarField& alpha1_;$/;"	m	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::cAlpha	interfaceProperties.H	/^        scalar cAlpha() const$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::cAlpha_	interfaceProperties.H	/^        scalar cAlpha_;$/;"	m	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::calculateK	interfaceProperties.C	/^void Foam::interfaceProperties::calculateK()$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::convertToRad	interfaceProperties.C	/^const Foam::scalar Foam::interfaceProperties::convertToRad =$/;"	m	language:C++	class:Foam::interfaceProperties	file:
+Foam::interfaceProperties::convertToRad	interfaceProperties.H	/^    static const scalar convertToRad;$/;"	m	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::correct	interfaceProperties.H	/^        void correct()$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::correctContactAngle	interfaceProperties.C	/^void Foam::interfaceProperties::correctContactAngle$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::deltaN	interfaceProperties.H	/^        const dimensionedScalar& deltaN() const$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::deltaN_	interfaceProperties.H	/^        const dimensionedScalar deltaN_;$/;"	m	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::interfaceProperties	interfaceProperties.C	/^Foam::interfaceProperties::interfaceProperties$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::nHatf	interfaceProperties.H	/^        const surfaceScalarField& nHatf() const$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::nHatf_	interfaceProperties.H	/^        surfaceScalarField nHatf_;$/;"	m	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::nearInterface	interfaceProperties.C	/^Foam::interfaceProperties::nearInterface() const$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::read	interfaceProperties.C	/^bool Foam::interfaceProperties::read()$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::sigma	interfaceProperties.H	/^        const dimensionedScalar& sigma() const$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::sigmaK	interfaceProperties.H	/^        tmp<volScalarField> sigmaK() const$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::sigma_	interfaceProperties.H	/^        dimensionedScalar sigma_;$/;"	m	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::surfaceTensionForce	interfaceProperties.C	/^Foam::interfaceProperties::surfaceTensionForce() const$/;"	f	language:C++	class:Foam::interfaceProperties
+Foam::interfaceProperties::transportPropertiesDict_	interfaceProperties.H	/^        const dictionary& transportPropertiesDict_;$/;"	m	language:C++	class:Foam::interfaceProperties
+K	interfaceProperties.H	/^        const volScalarField& K() const$/;"	f	language:C++	class:Foam::interfaceProperties
+K_	interfaceProperties.H	/^        volScalarField K_;$/;"	m	language:C++	class:Foam::interfaceProperties
+U_	interfaceProperties.H	/^        const volVectorField& U_;$/;"	m	language:C++	class:Foam::interfaceProperties
+alpha1_	interfaceProperties.H	/^        const volScalarField& alpha1_;$/;"	m	language:C++	class:Foam::interfaceProperties
+cAlpha	interfaceProperties.H	/^        scalar cAlpha() const$/;"	f	language:C++	class:Foam::interfaceProperties
+cAlpha_	interfaceProperties.H	/^        scalar cAlpha_;$/;"	m	language:C++	class:Foam::interfaceProperties
+calculateK	interfaceProperties.C	/^void Foam::interfaceProperties::calculateK()$/;"	f	language:C++	class:Foam::interfaceProperties
+convertToRad	interfaceProperties.C	/^const Foam::scalar Foam::interfaceProperties::convertToRad =$/;"	m	language:C++	class:Foam::interfaceProperties	file:
+convertToRad	interfaceProperties.H	/^    static const scalar convertToRad;$/;"	m	language:C++	class:Foam::interfaceProperties
+correct	interfaceProperties.H	/^        void correct()$/;"	f	language:C++	class:Foam::interfaceProperties
+correctContactAngle	interfaceProperties.C	/^void Foam::interfaceProperties::correctContactAngle$/;"	f	language:C++	class:Foam::interfaceProperties
+deltaN	interfaceProperties.H	/^        const dimensionedScalar& deltaN() const$/;"	f	language:C++	class:Foam::interfaceProperties
+deltaN_	interfaceProperties.H	/^        const dimensionedScalar deltaN_;$/;"	m	language:C++	class:Foam::interfaceProperties
+interfaceProperties	interfaceProperties.C	/^Foam::interfaceProperties::interfaceProperties$/;"	f	language:C++	class:Foam::interfaceProperties
+interfaceProperties	interfaceProperties.H	/^class interfaceProperties$/;"	c	language:C++	namespace:Foam
+interfaceProperties.C	interfaceProperties.C	1;"	F	language:C++
+interfaceProperties.H	interfaceProperties.H	1;"	F	language:C++
+interfaceProperties_H	interfaceProperties.H	40;"	d	language:C++
+nHatf	interfaceProperties.H	/^        const surfaceScalarField& nHatf() const$/;"	f	language:C++	class:Foam::interfaceProperties
+nHatf_	interfaceProperties.H	/^        surfaceScalarField nHatf_;$/;"	m	language:C++	class:Foam::interfaceProperties
+nearInterface	interfaceProperties.C	/^Foam::interfaceProperties::nearInterface() const$/;"	f	language:C++	class:Foam::interfaceProperties
+read	interfaceProperties.C	/^bool Foam::interfaceProperties::read()$/;"	f	language:C++	class:Foam::interfaceProperties
+sigma	interfaceProperties.H	/^        const dimensionedScalar& sigma() const$/;"	f	language:C++	class:Foam::interfaceProperties
+sigmaK	interfaceProperties.H	/^        tmp<volScalarField> sigmaK() const$/;"	f	language:C++	class:Foam::interfaceProperties
+sigma_	interfaceProperties.H	/^        dimensionedScalar sigma_;$/;"	m	language:C++	class:Foam::interfaceProperties
+surfaceTensionForce	interfaceProperties.C	/^Foam::interfaceProperties::surfaceTensionForce() const$/;"	f	language:C++	class:Foam::interfaceProperties
+transportPropertiesDict_	interfaceProperties.H	/^        const dictionary& transportPropertiesDict_;$/;"	m	language:C++	class:Foam::interfaceProperties
