@@ -58,6 +58,7 @@ core
 *.dep
 # lnInclude (symlink) directories - anywhere
 lnInclude
+lnInclude/*
 # Build directories - anywhere
 linux*Clang*/
 linux*Gcc*/
