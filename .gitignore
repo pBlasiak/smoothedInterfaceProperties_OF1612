@@ -59,6 +59,7 @@ core
 # lnInclude (symlink) directories - anywhere
 lnInclude
 lnInclude/*
+lnInclude/
 # Build directories - anywhere
 linux*Clang*/
 linux*Gcc*/
